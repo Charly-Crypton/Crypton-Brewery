@@ -1,0 +1,85 @@
+#header {
+    background-color: rgb(47, 46, 49);
+    height: 160px;
+    }
+#header ul {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+#main {
+  height: 900px;
+  font-family: 'Londrina Solid', cursive;
+  background: url(Header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgba(255, 241, 44, 0.671);
+}
+#main2 {
+    height: 900px;
+    font-family: 'Londrina Solid', cursive;
+    background: url(party.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(255, 241, 44, 0.671);
+  }
+#buffer {
+    height: 25rem;
+}
+#footer {
+    background-color: rgb(47, 46, 49);
+    height: 200px;
+    }
+.relative {
+    text-align: center;
+    position:relative;
+    bottom: -650px;
+    margin: 0px 0px 0px 0px;
+    font-size: 100px;
+}
+.Crypton {
+    text-align: center;
+    font-size: 120px;
+    color: antiquewhite;
+    font-family: 'Londrina Solid', cursive;
+}
+.btn-primary {
+    padding: 1rem 2rem;
+    background-color: orangered;
+    border-color: orangered;
+    font-weight: 700;
+    border-radius: 300px;
+    position:relative;
+    bottom: -650px;
+    margin: 0px 0px 0px 0px;
+  }
+.btn-primary:hover {
+    background-color: peru;
+    border-color: peru;
+    border-width: 4px;
+  }
+.btn-xl {
+padding: 1rem 2rem;
+}
+.col-md {
+   color: papayawhip;
+   font-size: 50px;
+}
+p {
+    border: 1px;
+    padding: 10px;
+    width: 1100px;
+    height: 100px;
+    text-align: justify;
+    position: relative;
+    margin: 0% 15% 0% 15%;
+    font-size: 25px;
+    font-family: 'Londrina Solid', cursive;
+}
